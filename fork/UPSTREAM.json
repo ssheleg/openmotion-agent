@@ -1,0 +1,19 @@
+{
+  "format": "fork-upstream/1",
+  "upstream": "https://github.com/nexu-io/openmotion",
+  "license": "Apache-2.0",
+  "forked_at": "2026-11-20",
+  "base": {
+    "commit": "c3e1ecfb3df89b6b6e99cd028a7e339fa8223fa6",
+    "describe": "v0.2.0-8-gc3e1ecfb",
+    "release": "v0.2.0",
+    "release_commit": "d19367403b1510ca31d1baed93811a72f1062f2d",
+    "taken_at": "2026-11-20",
+    "audit": "fork/audits/2026-11-20-intake-c3e1ecfb.md"
+  },
+  "telemetry_env": {"OPENMOTION_TELEMETRY": "0"},
+  "actions": "disabled",
+  "history": [
+    {"date": "2026-11-20", "event": "forked", "base": "c3e1ecfb3df8", "audit": "fork/audits/2026-11-20-intake-c3e1ecfb.md"}
+  ]
+}

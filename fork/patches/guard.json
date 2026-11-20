@@ -1,0 +1,14 @@
+{
+  "format": "upstream-patch-guard/1",
+  "note": "Patches of this line over upstream text (the agents database's pattern upstream-patch-guard): a merge that brings a forbidden phrase back, or loses a required one, fails fork/test.sh.",
+  "patches": [
+    {
+      "id": "no-opendesign-first",
+      "date": "2026-11-20",
+      "reason": "Upstream's media skill steers agents to pick the vendor's paid OpenDesign account or cloud first; on this line media goes through the operator's media service and keys, and the vendor's services only on the user's word (intake audit fork/audits/2026-11-20-intake-c3e1ecfb.md, finding S5).",
+      "file": "skills/openmotion-media/SKILL.md",
+      "forbidden": ["use OpenDesign whenever it is available and offers a fitting model"],
+      "required": ["never pick the OpenDesign account (`account`) or OpenDesign Cloud (`opendesign`) unless the user names one of them"]
+    }
+  ]
+}

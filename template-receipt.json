@@ -1,0 +1,9 @@
+{
+  "template": "media-production",
+  "version": "1.28.2",
+  "variants": ["engine-line"],
+  "org": "personal",
+  "role": "source",
+  "vendored": null,
+  "note": "Our line of OpenMotion (nexu-io/openmotion), a library line, not an agent: upstream taken only through the door audit (fork/README.md). Built like the HyperFrames line."
+}
